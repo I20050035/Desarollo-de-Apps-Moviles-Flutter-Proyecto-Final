@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Autores.AgregarAutor">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <!--UID DE USUARIO AUTORES -->
+        <TextView
+            android:id="@+id/uid_UsuarioAutores"
+            android:hint="@string/uid_UsuarioPrestamos"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <!--CORREO DE USUARIO AUTORES -->
+        <TextView
+            android:id="@+id/correo_UsuarioAutores"
+            android:hint="@string/correo_UsuarioPrestamos"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <!--FECHA Y HORA ACTUAL DEL DISPOSITIVO AUTORES -->
+        <TextView
+            android:id="@+id/fecha_Hora_actualAutores"
+            android:hint="@string/fecha_Hora_actualPrestamos"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:text="@string/nombresAutorET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+        </TextView>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <EditText
+                android:id="@+id/nombresAutorET"
+                android:inputType="textPersonName|textCapWords"
+                android:padding="20dp"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <TextView
+            android:text="@string/apellidosAutorET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center">
+        </TextView>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <EditText
+                android:id="@+id/apellidosAutorET"
+                android:inputType="text"
+                android:padding="20dp"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:text="@string/fecha_NacimientoET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center">
+        </TextView>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <EditText
+                android:id="@+id/fecha_NacimientoET"
+                android:inputType="text"
+                android:padding="20dp"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:text="@string/pais_NacimientoET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center">
+        </TextView>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <EditText
+                android:id="@+id/pais_NacimientoET"
+                android:inputType="text"
+                android:padding="20dp"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:text="@string/libro_EscritoET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center">
+        </TextView>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <EditText
+                android:id="@+id/libro_EscritoET"
+                android:inputType="text"
+                android:padding="20dp"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btnCreateAutor"
+            android:text="@string/btnCreateAutor"
+            android:layout_marginBottom="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:backgroundTint="#00A4CC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Button>
+
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

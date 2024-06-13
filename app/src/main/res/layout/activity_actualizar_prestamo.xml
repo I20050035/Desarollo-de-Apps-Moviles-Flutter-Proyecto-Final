@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Prestamos.Actualizar_Prestamo">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+
+        <!--ID DE PRESTAMO-->
+        <TextView
+            android:id="@+id/id_Prestamos_A"
+            android:hint="@string/id_Prestamos_A"
+            android:visibility="gone"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <!--UID DE USUARIO PRESTAMO-->
+        <TextView
+            android:id="@+id/uid_UsuarioPrestamos_A"
+            android:hint="@string/uid_UsuarioPrestamos_A"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <!--CORREO DE USUARIO PRESTAMO-->
+        <TextView
+            android:id="@+id/correo_UsuarioPrestamos_A"
+            android:hint="@string/correo_UsuarioPrestamos_A"
+            android:visibility="gone"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <!--FECHA Y HORA ACTUAL DEL DISPOSITIVO-->
+        <TextView
+            android:id="@+id/fecha_Hora_RegistroPrestamos_A"
+            android:hint="@string/fecha_Hora_RegistroPrestamos_A"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+
+        <TextView
+            android:text="@string/nombreSolicitante_A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+        </TextView>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <EditText
+                android:id="@+id/nombreSolicitante_A"
+                android:inputType="textPersonName|textCapWords"
+                android:padding="20dp"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <TextView
+            android:text="@string/libro_A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center">
+        </TextView>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <EditText
+                android:id="@+id/libro_A"
+                android:inputType="textPersonName|textCapWords"
+                android:padding="20dp"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:text="@string/fecha_Préstamo_A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center">
+        </TextView>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <EditText
+                android:id="@+id/fecha_Préstamo_A"
+                android:inputType="text"
+                android:padding="20dp"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:text="@string/fecha_Devolución_A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center">
+        </TextView>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <EditText
+                android:id="@+id/fecha_Devolución_A"
+                android:inputType="text"
+                android:padding="20dp"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:text="@string/estadoPrestamo_A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center">
+        </TextView>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <EditText
+                android:id="@+id/estadoPrestamo_A"
+                android:inputType="text"
+                android:padding="20dp"
+                android:drawablePadding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </EditText>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btnUpdatePrestamo"
+            android:text="@string/btnUpdatePrestamo"
+            android:textColor="@color/white"
+            android:backgroundTint="#00A4CC"
+            android:layout_marginBottom="15dp"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Button>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

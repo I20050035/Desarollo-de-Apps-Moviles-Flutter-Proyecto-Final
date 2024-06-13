@@ -1,0 +1,37 @@
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_gravity="center">
+
+    <TextView
+        android:text="@string/elijaOpcionReseñasTXT"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/cD_EliminarReseñas"
+        android:text="@string/cD_EliminarReseñas"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:layout_marginTop="26dp"
+        android:layout_gravity="center"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/cD_ActualizarReseñas"
+        android:text="@string/cD_ActualizarReseñas"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

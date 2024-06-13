@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_gravity="center">
+
+
+    <TextView
+        android:text="@string/elijaOpcionLibroTXT"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+
+
+    <Button
+        android:id="@+id/cD_EliminarLibro"
+        android:text="@string/cD_EliminarLibro"
+        android:layout_marginTop="26dp"
+        android:layout_gravity="center"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content">
+    </Button>
+
+
+    <Button
+        android:id="@+id/cD_ActualizarLibro"
+        android:text="@string/cD_ActualizarLibro"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content">
+    </Button>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

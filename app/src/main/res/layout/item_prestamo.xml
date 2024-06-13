@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    android:padding="0.2dp"
+    app:cardCornerRadius="10dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="7dp"
+            >
+
+            <!--ITEM PRESTAMO-->
+            <TextView
+                android:id="@+id/id_Prestamos_Item"
+                android:text="@string/id_Prestamos_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+            <!--ITEM USUARIO PRESTAMO -->
+            <TextView
+                android:id="@+id/uid_UsuarioPrestamos_Item"
+                android:text="@string/uid_UsuarioPrestamos_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+            <!--ITEM Correo Usuario PRESTAMO -->
+            <TextView
+                android:id="@+id/correo_UsuarioPrestamos_Item"
+                android:text="@string/correo_UsuarioPrestamos_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <!--ITEM Fecha Registro PRESTAMO -->
+            <TextView
+                android:id="@+id/fecha_Hora_RegistroPrestamos_Item"
+                android:text="@string/fecha_Hora_RegistroPrestamos_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <!--ITEM NOMBRE SOLICITANTE -->
+            <TextView
+                android:id="@+id/nombreSolicitante_Item"
+                android:text="@string/nombreSolicitante_Item"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+            <!--ITEM LIBRO -->
+            <TextView
+                android:id="@+id/libro_Item"
+                android:text="@string/libro_Item"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+            <!--ITEM FECHA PRESTAMO -->
+            <TextView
+                android:id="@+id/fecha_Préstamo_Item"
+                android:text="@string/fecha_Préstamo_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+            <!--ITEM FECHA DEVOLUCION -->
+            <TextView
+                android:id="@+id/fecha_Devolución_Item"
+                android:text="@string/fecha_Devolución_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+
+            <!--ITEM ESTADO PRESTAMO -->
+            <TextView
+                android:id="@+id/estadoPrestamo_Item"
+                android:text="@string/estadoPrestamo_Item"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+
+</androidx.cardview.widget.CardView>

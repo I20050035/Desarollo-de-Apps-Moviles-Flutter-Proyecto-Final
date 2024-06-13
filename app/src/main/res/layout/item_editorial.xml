@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    android:padding="0.2dp"
+    app:cardCornerRadius="10dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="7dp"
+            >
+
+            <!--ITEM EDITORIALES-->
+            <TextView
+                android:id="@+id/id_Editoriales_Item"
+                android:text="@string/id_Editoriales_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+            <!--ITEM Usuario EDITORIALES -->
+            <TextView
+                android:id="@+id/uid_UsuarioEditoriales_Item"
+                android:text="@string/uid_UsuarioEditoriales_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+            <!--ITEM Correo Usuario EDITORIALES -->
+            <TextView
+                android:id="@+id/correo_UsuarioEditoriales_Item"
+                android:text="@string/correo_UsuarioEditoriales_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <!--ITEM Fecha Registro EDITORIALES-->
+            <TextView
+                android:id="@+id/fecha_Hora_RegistroEditoriales_Item"
+                android:text="@string/fecha_Hora_RegistroEditoriales_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <!--ITEM NOMBRE DE LA EDITORIAL -->
+            <TextView
+                android:id="@+id/nombresEditorial_Item"
+                android:text="@string/nombresEditorial_Item"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+            <!--ITEM PAIS EDITORIAL -->
+            <TextView
+                android:id="@+id/paisEditorial_Item"
+                android:text="@string/paisEditorial_Item"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+            <!--ITEM AñO FUNDACION EDITORIAL -->
+            <TextView
+                android:id="@+id/año_FundacionEditorial_Item"
+                android:text="@string/año_FundacionEditorial_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+            <!--ITEM LIBRO EDITORIAL-->
+            <TextView
+                android:id="@+id/libro_Editorial_Item"
+                android:text="@string/libro_Editorial_Item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>

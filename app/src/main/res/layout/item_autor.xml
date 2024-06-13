@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    android:padding="0.2dp"
+    app:cardCornerRadius="10dp">
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="7dp"
+            >
+
+            <!--ITEM AUTORES-->
+            <TextView
+                android:id="@+id/id_Autores_Item"
+                android:text="@string/id_Autores_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+            <!--ITEM Usuario AUTORES -->
+            <TextView
+                android:id="@+id/uid_UsuarioAutores_Item"
+                android:text="@string/uid_UsuarioAutores_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+            <!--ITEM Correo Usuario AUTORES -->
+            <TextView
+                android:id="@+id/correo_UsuarioAutores_Item"
+                android:text="@string/correo_UsuarioAutores_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <!--ITEM Fecha Registro -->
+            <TextView
+                android:id="@+id/fecha_Hora_RegistroAutores_Item"
+                android:text="@string/fecha_Hora_RegistroAutores_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <!--ITEM NOMBRES DE LOS AUTORES -->
+            <TextView
+                android:id="@+id/nombresAutor_Item"
+                android:text="@string/nombresAutor_Item"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+            <!--ITEM APELLIDOS DEL AUTOR -->
+            <TextView
+                android:id="@+id/apellidosAutor_Item"
+                android:text="@string/apellidosAutor_Item"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+            <!--ITEM FECHA DE NACIMIENTO DEL AUTOR -->
+            <TextView
+                android:id="@+id/fecha_Nacimiento_Item"
+                android:text="@string/fecha_Nacimiento_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+            <!--ITEM AUTORES PAIS DE NACIMIENTO -->
+            <TextView
+                android:id="@+id/pais_Nacimiento_Item"
+                android:text="@string/pais_Nacimiento_Item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+
+            <!--ITEM AUTORES LIBRO ESCRITO -->
+            <TextView
+                android:id="@+id/libro_Escrito_Item"
+                android:text="@string/libro_Escrito_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>

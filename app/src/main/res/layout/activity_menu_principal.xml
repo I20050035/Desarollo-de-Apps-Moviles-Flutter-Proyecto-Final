@@ -1,0 +1,160 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuPrincipal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        app:cardBackgroundColor="#00A4CC"
+        app:cardUseCompatPadding="true"
+        android:padding="0.2dp"
+        app:cardCornerRadius="5dp">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bienvenidoPrincipal"
+                android:text="@string/bienvenidoPrincipal"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <ProgressBar
+                android:id="@+id/progressBarDatos"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+            <!--UID-->
+            <TextView
+                android:id="@+id/uidPrincipal"
+                android:text="@string/uidPrincipal"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--NOMBRES-->
+            <TextView
+                android:id="@+id/nombresPrincipal"
+                android:text="@string/nombresPrincipal"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!--CORREO-->
+            <TextView
+                android:id="@+id/correoPrincipal"
+                android:text="@string/correoPrincipal"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:text="@string/app_name"
+            android:textSize="30sp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!--Boton de LibrosActivty-->
+        <Button
+            android:id="@+id/btn_LibrosActivty"
+            android:text="@string/btn_LibrosActivty"
+            android:textColor="@color/white"
+            android:backgroundTint="#00A4CC"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--Boton de PréstamosActivty-->
+        <Button
+            android:id="@+id/btn_PréstamosActivty"
+            android:text="@string/btn_PréstamosActivty"
+            android:textColor="@color/white"
+            android:backgroundTint="#00A4CC"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--Boton de AutoresActivty-->
+        <Button
+            android:id="@+id/btn_AutoresActivty"
+            android:text="@string/btn_AutoresActivty"
+            android:textColor="@color/white"
+            android:backgroundTint="#00A4CC"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--Boton de CategoriasActivty-->
+        <Button
+            android:id="@+id/btn_CategoriasActivty"
+            android:text="@string/btn_CategoriasActivty"
+            android:textColor="@color/white"
+            android:backgroundTint="#00A4CC"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--Boton de EditorialesActivty-->
+        <Button
+            android:id="@+id/btn_EditorialesActivty"
+            android:text="@string/btn_EditorialesActivty"
+            android:textColor="@color/white"
+            android:backgroundTint="#00A4CC"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <!--Boton de UbicacionesActivty-->
+        <Button
+            android:id="@+id/btn_ReseñasActivty"
+            android:text="@string/btn_ReseñasActivty"
+            android:textColor="@color/white"
+            android:backgroundTint="#00A4CC"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <!--Boton de UbicacionesActivty-->
+        <Button
+            android:id="@+id/btn_CerrarSesion"
+            android:text="@string/btn_CerrarSesion"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

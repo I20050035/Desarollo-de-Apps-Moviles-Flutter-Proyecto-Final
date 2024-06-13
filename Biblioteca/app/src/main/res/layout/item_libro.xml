@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    android:foreground="?android:attr/selectableItemBackground"
+    android:focusable="true"
+    android:clickable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardUseCompatPadding="true"
+    android:padding="0.2dp"
+    app:cardCornerRadius="10dp">
+
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="7dp"
+            >
+
+            <!--ITEM Libro-->
+            <TextView
+                android:id="@+id/id_Libro_Item"
+                android:text="@string/id_Libro_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+            <!--ITEM Usuario -->
+            <TextView
+                android:id="@+id/uid_Usuario_Item"
+                android:text="@string/uid_Usuario_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+            <!--ITEM Correo Usuario -->
+            <TextView
+                android:id="@+id/correo_Usuario_Item"
+                android:text="@string/correo_Usuario_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <!--ITEM Fecha Registro -->
+            <TextView
+                android:id="@+id/fecha_Hora_Registro_Item"
+                android:text="@string/fecha_Hora_Registro_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+            <!--ITEM Titulo Libro -->
+            <TextView
+                android:id="@+id/tituloLibro_Item"
+                android:text="@string/tituloLibro_Item"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+            <!--ITEM Autor Libro -->
+            <TextView
+                android:id="@+id/autorLibro_Item"
+                android:text="@string/autorLibro_Item"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+            <!--ITEM Genero Libro -->
+            <TextView
+                android:id="@+id/generoLibro_Item"
+                android:text="@string/generoLibro_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+            <!--ITEM Año Publicacion Libro -->
+            <TextView
+                android:id="@+id/año_PublicaciónLibro_Item"
+                android:text="@string/año_PublicaciónLibro_Item"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+
+            <!--ITEM Numero Paginas Libro -->
+            <TextView
+                android:id="@+id/numero_PaginasLibro_Item"
+                android:text="@string/numero_PaginasLibro_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+
+            <!--ITEM Cantidad Libros Disponibles -->
+            <TextView
+                android:id="@+id/cantidad_DisponibleLibro_Item"
+                android:text="@string/cantidad_DisponibleLibro_Item"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </TextView>
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.cardview.widget.CardView>

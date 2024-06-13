@@ -1,0 +1,27 @@
+package com.miappsoft.biblioteca.Reseñas
+
+import android.os.Bundle
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import com.miappsoft.biblioteca.R
+
+class AgregarResena : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_agregar_resena)
+
+        val actionBar: androidx.appcompat.app.ActionBar? = supportActionBar
+        actionBar?.title = "Agregar Reseña"
+        actionBar?.setDisplayShowHomeEnabled(true)
+        actionBar?.setDisplayHomeAsUpEnabled(true)
+
+    }
+
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return super.onSupportNavigateUp()
+    }
+}

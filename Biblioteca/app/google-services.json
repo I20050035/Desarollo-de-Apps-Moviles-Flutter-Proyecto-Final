@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "884890344977",
+    "project_id": "biblioteca-d571c",
+    "storage_bucket": "biblioteca-d571c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884890344977:android:6d614c30d89d1c8a609bb0",
+        "android_client_info": {
+          "package_name": "com.miappsoft.biblioteca"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEbPP4SskwF_rKdw1FMspniOe_IBAigqc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
